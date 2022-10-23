@@ -1,0 +1,63 @@
+.nav-content {
+    position: relative;
+}
+
+.qr-reader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    flex-direction: column;
+}
+
+
+.in-out-btn-container {
+    position: absolute;
+    top: 280px;
+    left: 130px;
+}
+
+.in-out-btn-container button {
+    display: block;
+    width: 150px;
+    margin: 10px 0;
+    height: 50px;
+}
+
+.in-out-btn-container .active {
+    border: 2px solid black;
+}
+
+.in-out-time {
+    position: absolute;
+    color: green;
+    display: none;
+    background-color: rgb(212, 206, 141);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+}
+
+.in-out-time h3 , .in-out-time h4{
+    text-align: center;
+}
+
+.in-out-time p {
+    text-align: center;
+    color: black;
+}
+
+#result h3{
+    color: red;
+}
+
+.in-out-time img{
+    position: absolute;
+    width: 20px;
+    top: 10px;
+    right: 10px;
+
+}

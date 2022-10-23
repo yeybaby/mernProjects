@@ -1,5 +1,5 @@
 const validateToken = (req, res, next) => {
-    const accessToken = req.cookie[accessToken];
+    const accessToken = req.cookie[adminCookie];
     if(!accessToken) {
         res.send("not authenticated!")
     }
